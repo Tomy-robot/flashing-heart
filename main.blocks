@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="es%e6f!?0X$g/}M@A/OT">a</variable></variables><block type="device_button_event" id="m$i]b.0([Lz-q0$SnL:3" x="0" y="0"><field name="NAME">Button.A</field></block><block type="device_forever" id=")-s+?;V?2T$[=HfL4@os" x="-5" y="158"><statement name="HANDLER"><block type="variables_set" id="H[f7x.`Qq:sE#=!ot:j|"><field name="VAR" id="es%e6f!?0X$g/}M@A/OT">a</field><value name="VALUE"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_acceleration" id="@BcJBxXdAHp17~S=d4}G"><field name="NAME">Dimension.Strength</field></block></value><next><block type="controls_if" id="j)m+^;$Cmh:Odulc_MiJ"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="h@@5kyS-}InX`},m=cc{"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="8Vd78SXB{THj9v:TY^e7"><field name="VAR" id="es%e6f!?0X$g/}M@A/OT">a</field></block></value><value name="B"><shadow type="math_number" id="lD:_qU6fc_o+wU6ZHk:Y"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="cqAJK:P{4q2t67vEXEJe"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        # # # # # 
+        . . # . . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="LIW{uehO)[SJihkgn.M."><field name="LEDS">`
+        # # # # # 
+        . . . . . 
+        # # # # # 
+        . . . . . 
+        # # # # #
+        `</field></block></statement></block></next></block></statement></block></xml>
